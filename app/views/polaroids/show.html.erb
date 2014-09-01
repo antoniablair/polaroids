@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @polaroid.name %>
+</p>
+
+<p>
+  <b>Artist:</b>
+  <%= @polaroid.artist %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @polaroid.description %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @polaroid.price %>
+</p>
+
+<p>
+  <b>Picture:</b>
+  <%= @polaroid.picture %>
+</p>
+
+
+<%= link_to 'Edit', edit_polaroid_path(@polaroid) %> |
+<%= link_to 'Back', polaroids_path %>
