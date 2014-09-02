@@ -22,7 +22,7 @@
 
 <p>
   <b>Picture:</b>
-  <%= @polaroid.picture %>
+  <%= image_tag(@polaroid.picture_url, :width => 600) if @polaroid.picture.present? %>
 </p>
 
 

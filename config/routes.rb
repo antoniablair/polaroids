@@ -1,4 +1,5 @@
 Polaroids::Application.routes.draw do
+  root :to => redirect('/polaroids')
   resources :polaroids
 
 
